@@ -29,11 +29,11 @@ input:not(#next) {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   outline: none;
-  border: 2px solid #402e32;
+  border: 1px solid #402e32;
   background-color: #fff;
   margin: 0 0 10px 0;
   padding: 3px 5px;
-  font-size: 1.1rem;
+  font-size: .9rem;
   width: 100%;
 }
 #button {
@@ -42,7 +42,7 @@ input:not(#next) {
 }
 #next {
   padding: 8px 30px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   outline: none;
   border: none;
   font-weight: bold;
@@ -58,14 +58,14 @@ input:not(#next) {
   transform: scale(.9);
 }
 form > p, #button > p, a {
-  font-size: .8rem;
+  font-size: .7rem;
   color: #402e32;
 }
 #options {
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 1rem;
+  font-size: .9rem;
   color: #402e32;
   font-weight: bold;
 }
@@ -86,7 +86,7 @@ form > p, #button > p, a {
     transform: translate(-50%,-50%);
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
   }
   #hero, #signup-form {
     margin: 20px 0;
