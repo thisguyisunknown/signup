@@ -86,10 +86,10 @@ form > p, #button > p, a {
     transform: translate(-50%,-50%);
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 70px;
   }
   #hero, #signup-form {
-    margin: 20px 0;
+    margin: 0;
   }
   #hero {
     width: 300px;
