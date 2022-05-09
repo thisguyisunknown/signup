@@ -85,6 +85,7 @@ form > p, #button > p, a:not(#login) {
 .icon {
   flex-basis: 100%;
   transition: all .2s;
+  cursor: pointer;
 }
 .icon:hover {
   background-color: rgba(237,145,33,0.5);
