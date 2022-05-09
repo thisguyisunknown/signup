@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <title>Subscribe Form</title>
+</head>
+<body>
+  <div id="container">
+    <div id="hero">
+      <h1>Hello World</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <div id="signup-form">
+      <h2>Create an Account</h2>
+      <form action="#" target="_blank" method="get" accept-charset="utf-8">
+        <input type="text" name="name" id="name" placeholder="Your Name" required/>
+        <input type="email" name="email" id="email" placeholder="Your Email" required/>
+        <input type="password" name="password" id="password" placeholder="Create Password" minlength="8" required/>
+        <input type="password" name="confirm" id="confirm" oninput="check(this)" placeholder="Re-type Password" minlength="8" required/> <p><i>*Password must be 8 characters long</i></p>
+        <br />
+        <div id="button">
+        <input type="submit" name="next" id="next" value="Next" />
+        <p><i>*By clicking Next, you agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></i></p>
+        </div>
+      </form>
+      <div id="options">
+        <p>Or Log-In with</p>
+        <div class="social"><img src="assets/facebook.svg" alt="login with facebook">
+        <img src="assets/google.svg" alt="login with google">
+        <img src="assets/twitter.svg" alt="login with twitter">
+        </div>
+      </div>
+    </div>
+  </div>
+	<script src="script.js"></script>
+	<!--Icons from SVGrepo.com-->
+</body>
+</html>
