@@ -42,7 +42,7 @@ input:not(#next) {
 }
 #next {
   padding: 8px 30px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   outline: none;
   border: none;
   font-weight: bold;
@@ -58,7 +58,7 @@ input:not(#next) {
   transform: scale(.9);
 }
 form > p, #button > p, a:not(#login) {
-  font-size: .7rem;
+  font-size: .8rem;
   color: #402e32;
 }
 #options {
@@ -85,16 +85,19 @@ form > p, #button > p, a:not(#login) {
 .icon {
   flex-basis: 100%;
   transition: all .2s;
-  cursor: pointer;
 }
 .icon:hover {
   background-color: rgba(237,145,33,0.5);
+  cursor: pointer;
 }
 .icon > img {
   display: inline-block;
   vertical-align: middle;
   height: 35px;
   margin: 3px 0;
+}
+a:hover {
+  cursor: pointer;
 }
 @media (min-width: 481px) {
   #container {
